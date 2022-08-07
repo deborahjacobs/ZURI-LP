@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* Hero section styles */
+.hero_section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 122vh;
+    
+}
+.hero_content{
+    width: 50vw;
+    text-align: center;
+}
+.zuri_logo{
+    padding: 10vh 0;
+    padding-bottom: 5vh;
+}
+.hero_txt{
+    color: #514949;
+    opacity: 0.9;
+    font-weight: 500;
+}
+.hero_colored_txt{
+    color: #eb5850;
+    font-weight: 600;
+}
+.hero_heading{
+    font-size: 28px;
+    margin: 5vh auto;
+    color: #514949;
+    opacity: 0.9;
+}
+.hero_btn_container{
+    margin: 15vh 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.new_to_indistry{
+    padding: 2.5vh 3vw;
+    font-weight: 600;
+    background-color: #E7332B;
+    color: #fff;
+    border: 0;
+    transition: 0.2s all;
+    font-size: 0.9rem;
+    align-self: center;
+}
+.new_to_indistry:hover{
+    color: #E7332B;
+    background-color: #fff;
+    border: 1px solid #E7332B;
+}
+.need_experience{
+    padding: 2.5vh 3vw;
+    border: 0;
+    font-weight: bolder;
+    background: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+    transition: 0.2s all;
+    font-size: 0.9rem;
+}
+.need_experience:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+
+
+/* Activity section */
+.activity_section{
+    margin-bottom: 30vh;
+    position: relative;
+}
+.left_activity_bg{
+    width: 25vw;
+    position: absolute;
+    left: 0;
+}
+.right_activity_bg{
+    width: 25vw;
+    position: absolute;
+    right: 0;
+}
+.activity_heading{
+    text-align: center;
+}
+.activity_heading_sm{
+    font-size: 16px;
+    color: #E7332B;
+    margin-top: 141px;
+    font-weight: 600;
+}
+.activity_heading_lg{
+    font-size: 2rem;
+    line-height: 3rem;
+    opacity: 0.8;
+}
+
+.activity_boxex_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin: 9vh auto;
+    grid-gap: 2vw;
+}
+.custom_activity_card{    
+    background-color: #FFFAFA;
+    padding: 8vh 2vw 20vh 2vw;
+    font-size: 16px;
+    color: #514949;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+.activity_card_img{
+    margin-bottom: 2rem;
+}
+.activity_card_txt{
+    margin-bottom: 2.5vh;
+    color: #514949;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card_link{
+    font-weight: 700;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+
+
+
+/* Footer */
+.footer_h3{
+    color: #514949;
+}
+.footer_grid{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    /* border-bottom: 2px solid black; */
+    margin: 2vh auto;
+    padding: 20px;
+    padding-bottom: 15vh;
+}
+.footer_logo{
+    width: 10vw;
+}
+.footer_address{
+    width: 16vw;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.footer_social_media_wrapper{
+    width: 11vw;
+}
+/* .social_media_flex{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-self: center;
+    margin: 0.5vh auto;
+} */
+.footer_list, .footer_mail{
+    line-height: 2.5;
+}
+.footer_grid ul{
+    list-style: none;
+    transition: 0.2s all;
+}
+.footer_social_media{
+    width: 1.5vw;
+    margin-top: 2vh;
+}
+.colored_txt{
+    font-weight: 450;
+    color: #E7332B;
+}
+.copyright_txt{
+    text-align: center;
+    margin: 5vh;
+    font-weight: 700;
+    color: #514949;
+    margin-bottom: 5.5rem;
+    opacity: 0.85;
+}
+
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 1100px) {
+    .hero_content{
+        width: 80vw;
+    }
+    .zuri_logo{
+        padding: 15vh 0;
+        margin-bottom: 0;
+    }
+    .hero_heading{
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    .new_to_indistry, .need_experience{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .left_activity_bg, .right_activity_bg{
+        display: none;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .activity_boxex_wrapper{
+        width: 90vw;
+        grid-template-columns: 1fr;
+    }
+    .custom_activity_card{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .activity_boxex_wrapper{
+        grid-gap: 7vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .hero_content{
+        width: 95vw;
+    }
+    .footer_grid{
+        flex-direction: column;
+        justify-content: center;
+        width: 90vw;
+        text-align: center;
+    }
+    .footer_logo{
+        width: 100%;
+        padding: 5vh 0;
+    }
+    .footer_address{
+        width: 100%;
+        margin: 5vh auto;
+    }
+    .zuri_logo{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_social_media_wrapper{
+        width: 100%;
+    }
+    .activity_heading_sm {
+        margin-top: 60px;
+    }
+    .footer_social_media{
+        width: 4vw;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+    .hero_btn_container{
+        flex-direction: column;
+    }
+    .activity_heading_lg{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 450px) {
+    .activity_heading_lg{
+        font-size: 1.3rem;
+    }
+    .footer_social_media{
+        width: 7vw;
+    }
+    .activity_boxex_wrapper{
+        grid-gap: 8vh;
+    }
+}
