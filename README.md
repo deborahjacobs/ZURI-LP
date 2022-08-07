@@ -1,2 +1,3 @@
 # ZURI-LP
-https://deborahjacobs.github.io/calculator/
+
+https://deborahjacobs.github.io/ZURI-LP/
